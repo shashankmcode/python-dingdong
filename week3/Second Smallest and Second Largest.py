@@ -1,5 +1,5 @@
 #brute force(no duplicate elemets)
-""" arr=[1,2,3,4,5]
+arr=[1,2,3,4,5]
 n=len(arr)
 print(n)
 for i in range(n):
@@ -8,9 +8,9 @@ for i in range(n):
          arr[j], arr[j+1] = arr[j+1], arr[j]
 print("second smallest element is",arr[1])
 print("second largest element is",arr[n-2])
- """
+
 #optimal approcah(duplicate bhi chalega)
-""" arr=[1,2,3,5,5]
+arr=[1,2,3,5,5]
 n=len(arr)
 print(n)
 for i in range(n):
@@ -22,9 +22,9 @@ secondlargest=0
 for i in range(n):
    if(arr[i]>secondlargest and arr[i]!=largest):
       secondlargest=arr[i]
-print(secondlargest) """
+print(secondlargest)
 
-#best approach
+#best approach(ek iternation me hi)
 arr=[1,2,3,5,5]
 n=len(arr)
 largest=arr[0]
