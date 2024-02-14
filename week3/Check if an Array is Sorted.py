@@ -1,5 +1,5 @@
 #brute force approach
-arr=[1,2,1,3,4]
+arr=[1,2,3]
 n=len(arr)
 sorted=True
 for i in range(len(arr)-1):
