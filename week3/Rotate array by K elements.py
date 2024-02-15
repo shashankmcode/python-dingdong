@@ -23,6 +23,11 @@ for i in range(k):
 for i in range(k,n):
     arr[i-k]=arr[i]
 print(temp)
-arr[-k:]=temp
+arr[-k:]=temp 
 print(arr)
 
+""" In the slice notation arr[-k:], the meaning of start, stop, and step can be understood as follows:
+
+start: Since -k is negative, it refers to an index relative to the end of the list arr. Specifically, it indicates the start of the slice. -k means k elements from the end of the list.
+stop: The colon : signifies the separation between start and stop. Since : is followed by nothing after it, stop defaults to the end of the list, meaning it will include elements up to the end of the list.
+step: Since there's no explicit step specified, it defaults to 1, meaning every element will be included in the slice without skipping an """
