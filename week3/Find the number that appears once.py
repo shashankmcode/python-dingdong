@@ -8,7 +8,7 @@ for i in range(n):
             break
     if test==False:
         print(num[i])
-hehe
+
 
         
         
