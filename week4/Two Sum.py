@@ -22,3 +22,4 @@ while l<r:
     else:
         r-=1
 print(l,r)
+
