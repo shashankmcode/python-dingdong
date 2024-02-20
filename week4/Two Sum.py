@@ -1,13 +1,13 @@
-""" num = 2,6,5,8,11
-n=14
+num = [3,5,1,10]
+n=6
 for i in range(len(num)):
     for j in range(1,len(num)):
         if num[i]+num[j]==n:
          print(i,j)
- """
+
 
 #Better
-nums = [3,2,1]
+nums = [3,5,1,10]
 target=6
 nums.sort()#Sorts here
 print(nums)
