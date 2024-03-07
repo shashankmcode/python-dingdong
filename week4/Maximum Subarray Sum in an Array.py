@@ -37,7 +37,7 @@ print(temp)
    
    
 
-maxi=-sys.maxsize-1
+""" maxi=-sys.maxsize-1
 n=len(nums)
 sum1=0
 for i in range(n):
@@ -46,6 +46,6 @@ if(sum1>maxi):
 maxi=sum1
 if(sum1<0):
 sum1=0
-return maxi
+return maxi """
 
         
